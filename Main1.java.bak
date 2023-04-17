@@ -1,0 +1,50 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+/*class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+    }
+}*/
+import java.util.Scanner;
+class Theatre
+{
+    String movie, director,type;
+    int num;
+    void type_2d(int n,String m1)
+    {
+        num =n;
+        movie=m1;
+        double amount=(0.2*120)+120;
+        double bill=(amount*num);
+        System.out.println("bill is:"+bill);
+        
+    }
+    void type_3d(int n,String m1)
+    {
+        num =n;
+        movie=m1;
+        double amount=(0.25*150)+150;
+        double bill=(amount*num);
+        System.out.println("bill is:"+bill);
+        
+    }
+}
+class Main1{
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int num=sc.nextInt();
+        String movie =sc.next();
+        String type=sc.next();
+        String dir=sc.nextLine();
+        Theatre ob =new Theatre();
+        if (type =="2d")
+        {
+            ob.type_2d(num,movie);
+        }
+        else //if (type=="3d")
+        {
+            ob.type_3d(num,movie);
+        }
+    }
+}

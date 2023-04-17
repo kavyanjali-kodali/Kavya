@@ -1,0 +1,19 @@
+import java.util.Scanner;
+//function for checking a number is krishna moorthy or not.
+//145=1!+4!+5!=1+24+120=145
+class Krsna_Murthy
+{
+ //public static void krishna_murthy(str n)
+// {
+	 // finding digits 
+	 // finding factorial of digits 
+	 //sum and finding whether is equal
+// }
+ public static void main(String[] args)
+ {
+	 int k=789;
+	 String l=k;
+	 int m=k.length;
+	 System.out.println(k+l+m);
+ }
+}

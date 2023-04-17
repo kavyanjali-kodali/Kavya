@@ -1,0 +1,57 @@
+//package com.techvidvan.wrapperclasses;
+//import java.util.ArrayList;
+public class AutoboxingExample
+{
+	  public static void main(String[] args)
+  {
+    // byte data type
+    byte byteVar = 5;
+    // wrapping around Byte object
+    Byte byteobj = byteVar;
+
+    // int data type
+    int intVar = 33;
+    //wrapping around Integer object
+    Integer intobj = new Integer(intVar);
+
+    // float data type
+    float floatVar = 16.8f;
+    // wrapping around Float object
+    Float floatobj = new Float(floatVar);
+
+    // double data type
+    double doubleVar = 496.87;
+    // Wrapping around Double object
+    Double doubleobj = new Double(doubleVar);
+
+    // char data type
+    char charVar='s';
+    // wrapping around Character object
+    Character charobj=charVar;
+
+    // printing the values from objects
+    System.out.println("Values of Wrapper objects (printing as objects)");
+    System.out.println("Byte object byteobj: " + byteobj);
+    System.out.println("Integer object intobj: " + intobj);
+    System.out.println("Float object floatobj: " + floatobj);
+    System.out.println("Double object doubleobj: " + doubleobj);
+    System.out.println("Character object charobj: " + charobj);
+
+    // objects to data types (retrieving data types from objects)
+    // unwrapping objects to primitive data types
+    byte unwrappingByte = byteobj;
+    int unwrappingInt = intobj;
+    float unwrappingFloat = floatobj;
+    double unwrappingDouble = doubleobj;
+    char unwrappingChar = charobj;
+
+    System.out.println("Unwrapped values ");
+    System.out.println("byte value, unwrapped Byte: " + unwrappingByte);
+    System.out.println("int value, unwrapped Int: " + unwrappingInt);
+    System.out.println("float value, unwrapped Float: " + unwrappingFloat);
+    System.out.println("double value, unwrapped Double: " + unwrappingDouble);
+    System.out.println("char value, unwrapped Char: " + unwrappingChar);
+  }
+}
+
+ 

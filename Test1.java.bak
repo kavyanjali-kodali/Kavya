@@ -1,0 +1,19 @@
+class Test
+{
+	public static void Rect()
+	{
+		System.out.println("1");
+	}
+	//public static void Sqrt()
+	//{
+//System.out.println("2");
+	//}
+}
+class Test1 extends Test
+{
+	public static void main(String[] args)
+	{
+		Test k=new Test();
+		super();
+	}
+}

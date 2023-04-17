@@ -1,0 +1,31 @@
+import java.util.Scanner;
+class Assignment
+{
+	public static void main(String[]args)
+	{
+	Scanner input=new Scanner(System.in);
+    System.out.print("Enter the value of a ");
+    int k=input.nextInt();
+	System.out.print("Enter the value of b ");
+    int m=input.nextInt();
+    int sum=k+m;
+    assign y=new assign(k,m,sum);
+    y.display();	
+	}
+}
+class assign
+{
+	int a;
+	int b;
+	int c;
+	assign(int k,int m,int sum)
+	{
+		a=k;
+		b=m;
+		c=sum;
+	}
+	void display()
+	{
+		System.out.println("You are trying to add two numbers a and b i.e. "+a+" and "+b);
+		System.out.println("And you are assigning the sum to c.Then c is "+c);
+}}

@@ -1,0 +1,31 @@
+//1/1!+1/2!+...
+import java.util.Scanner;
+class Main2
+{
+	static double Factorial(int n)
+	{
+		double fac=1;
+		for (int i=1;i<=n;i++)
+		{
+			fac=fac*i;
+		}
+		return fac;
+	}
+	public static void main(String [] args)
+	{
+		Scanner input=new Scanner(System.in);
+		System.out.print("Enter the no of terms in the series : ");
+		int n=input.nextInt();
+		System.out.println(Factorial(2));
+		System.out.println("Sum of series : "+Series(n));
+	}
+	static double Series(int n)
+	{
+		double sum=0;
+		for (int i=1;i<=n;i++)
+		{
+			sum+=(1/Factorial(i));
+		}
+		return sum;
+	}
+}

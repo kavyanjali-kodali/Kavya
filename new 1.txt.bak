@@ -1,0 +1,22 @@
+class s1
+{
+	public static void main(String[] args)
+	{
+		String a="java Strings";String a1="in oop";
+		//concat()
+		a.concat(a1)
+		//contains()
+		result =a.contains(java);
+		System.out.println(result);
+		//substring
+		String b= "Hello!";
+		System.out.println(b.substring(0,2));//getting from index0 to 1
+		//join() 
+		String.join(Charseq
+		//replace 
+		string.repalce(char oldchar ,char newchar);
+		//"//d+" for digits
+		1.program to check whether a prime
+		2.fibonacci up to prime
+		3.String classes
+		4.Taking an input and creating a sub string 

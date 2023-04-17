@@ -1,0 +1,20 @@
+class marks 
+{
+	public static void main(String[] args )
+	{
+		Marks k=new marks(29,38,49);
+		Marks k=new marks(29,24);
+	}
+}
+class Marks
+{
+	public int total_marks(int m1,int m2,int m3)
+	{
+		return (m1+m2+m3);
+	}
+	public int total_marks(int m1,int m2)
+	{
+		return (m1+m2);
+	}
+	
+}
